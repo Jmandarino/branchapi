@@ -15,7 +15,9 @@ import (
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/link", GetLinkData).Methods("POST")
-	log.Fatal(http.ListenAndServe(":8000", router))
+	port := ":" + os.Getenv("PORT")
+
+        log.Fatal(http.ListenAndServe(port, router))
 }
 
 type StatusError struct {
