@@ -109,4 +109,5 @@ func getDomain(link *Link) {
 
 var branchKeys = map[string]string{
 	"jz90.app.link" : "key_live_njOiciGe88AFf5y54I1kklbostfXSDB1",
+	"horntest.app.link" : "key_live_nlHjUfa45WJ2Y6tnUKC2rfjeztaK0nA0",
 }
