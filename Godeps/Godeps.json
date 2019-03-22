@@ -1,0 +1,12 @@
+{
+	"ImportPath": "github.com/jmandarino/branchapi",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.7.0-4-gc5c6c98",
+			"Rev": "c5c6c98bc25355028a63748a498942a6398ccd22"
+		}
+	]
+}
